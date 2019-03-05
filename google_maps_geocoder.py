@@ -1,3 +1,11 @@
+"""
+When dealing with bulk CSV uploads for routes, there are two ways to upload them. (1) Using addresses
+that are saved in the address book on the Samsara dashboard or by (2) using the full address, latitude,
+and longitude.  With the second option, its likely you do not have the gps coordinates for an address.
+This script allows you to input a list of addresses via csv and output a new csv with address, latitude,
+and longitude.
+"""
+
 import requests
 import json
 import csv
